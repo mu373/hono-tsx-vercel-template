@@ -1,0 +1,19 @@
+{
+  "name": "hono-vercel-tutorial",
+  "version": "1.0.0",
+  "description": "Minimal Hono + JSX + Vercel tutorial project",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build"
+  },
+  "dependencies": {
+    "hono": "^4.6.12"
+  },
+  "devDependencies": {
+    "@hono/vite-dev-server": "^0.18.3",
+    "@types/node": "^22.10.1",
+    "typescript": "^5.7.2",
+    "vite": "^6.0.3"
+  }
+}
